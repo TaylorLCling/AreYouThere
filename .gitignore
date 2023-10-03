@@ -33,3 +33,10 @@
 
 # VSCode
 .vscode/
+
+# Make and CMake Files
+Makefile
+CMakeFiles/*
+AreYouThere
+*.CMake
+CMakeCache.txt

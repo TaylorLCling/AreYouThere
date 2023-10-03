@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/taylorlcling/Projects/AreYouThere
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/openCam.dir/all
+all: CMakeFiles/AreYouThere.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/openCam.dir/clean
+clean: CMakeFiles/AreYouThere.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/openCam.dir
+# Target rules for target CMakeFiles/AreYouThere.dir
 
 # All Build rule for target.
-CMakeFiles/openCam.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/openCam.dir/build.make CMakeFiles/openCam.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/openCam.dir/build.make CMakeFiles/openCam.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/taylorlcling/Projects/AreYouThere/CMakeFiles --progress-num=1,2 "Built target openCam"
-.PHONY : CMakeFiles/openCam.dir/all
+CMakeFiles/AreYouThere.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AreYouThere.dir/build.make CMakeFiles/AreYouThere.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AreYouThere.dir/build.make CMakeFiles/AreYouThere.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/taylorlcling/Projects/AreYouThere/CMakeFiles --progress-num=1,2 "Built target AreYouThere"
+.PHONY : CMakeFiles/AreYouThere.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/openCam.dir/rule: cmake_check_build_system
+CMakeFiles/AreYouThere.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/taylorlcling/Projects/AreYouThere/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/openCam.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/AreYouThere.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/taylorlcling/Projects/AreYouThere/CMakeFiles 0
-.PHONY : CMakeFiles/openCam.dir/rule
+.PHONY : CMakeFiles/AreYouThere.dir/rule
 
 # Convenience name for target.
-openCam: CMakeFiles/openCam.dir/rule
-.PHONY : openCam
+AreYouThere: CMakeFiles/AreYouThere.dir/rule
+.PHONY : AreYouThere
 
 # clean rule for target.
-CMakeFiles/openCam.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/openCam.dir/build.make CMakeFiles/openCam.dir/clean
-.PHONY : CMakeFiles/openCam.dir/clean
+CMakeFiles/AreYouThere.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AreYouThere.dir/build.make CMakeFiles/AreYouThere.dir/clean
+.PHONY : CMakeFiles/AreYouThere.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named openCam
+# Target rules for targets named AreYouThere
 
 # Build rule for target.
-openCam: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 openCam
-.PHONY : openCam
+AreYouThere: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 AreYouThere
+.PHONY : AreYouThere
 
 # fast build rule for target.
-openCam/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/openCam.dir/build.make CMakeFiles/openCam.dir/build
-.PHONY : openCam/fast
+AreYouThere/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AreYouThere.dir/build.make CMakeFiles/AreYouThere.dir/build
+.PHONY : AreYouThere/fast
 
-openCam.o: openCam.cpp.o
-.PHONY : openCam.o
+AreYouThere.o: AreYouThere.cpp.o
+.PHONY : AreYouThere.o
 
 # target to build an object file
-openCam.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/openCam.dir/build.make CMakeFiles/openCam.dir/openCam.cpp.o
-.PHONY : openCam.cpp.o
+AreYouThere.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AreYouThere.dir/build.make CMakeFiles/AreYouThere.dir/AreYouThere.cpp.o
+.PHONY : AreYouThere.cpp.o
 
-openCam.i: openCam.cpp.i
-.PHONY : openCam.i
+AreYouThere.i: AreYouThere.cpp.i
+.PHONY : AreYouThere.i
 
 # target to preprocess a source file
-openCam.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/openCam.dir/build.make CMakeFiles/openCam.dir/openCam.cpp.i
-.PHONY : openCam.cpp.i
+AreYouThere.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AreYouThere.dir/build.make CMakeFiles/AreYouThere.dir/AreYouThere.cpp.i
+.PHONY : AreYouThere.cpp.i
 
-openCam.s: openCam.cpp.s
-.PHONY : openCam.s
+AreYouThere.s: AreYouThere.cpp.s
+.PHONY : AreYouThere.s
 
 # target to generate assembly for a file
-openCam.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/openCam.dir/build.make CMakeFiles/openCam.dir/openCam.cpp.s
-.PHONY : openCam.cpp.s
+AreYouThere.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AreYouThere.dir/build.make CMakeFiles/AreYouThere.dir/AreYouThere.cpp.s
+.PHONY : AreYouThere.cpp.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... openCam"
-	@echo "... openCam.o"
-	@echo "... openCam.i"
-	@echo "... openCam.s"
+	@echo "... AreYouThere"
+	@echo "... AreYouThere.o"
+	@echo "... AreYouThere.i"
+	@echo "... AreYouThere.s"
 .PHONY : help
 
 
