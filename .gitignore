@@ -38,5 +38,5 @@
 Makefile
 CMakeFiles/*
 AreYouThere
-*.CMake
+*.cmake
 CMakeCache.txt

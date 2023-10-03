@@ -1,3 +1,0 @@
-/home/taylorlcling/Projects/AreYouThere/CMakeFiles/AreYouThere.dir
-/home/taylorlcling/Projects/AreYouThere/CMakeFiles/edit_cache.dir
-/home/taylorlcling/Projects/AreYouThere/CMakeFiles/rebuild_cache.dir
