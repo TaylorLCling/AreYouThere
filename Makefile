@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named DisplayImage
+# Target rules for targets named openCam
 
 # Build rule for target.
-DisplayImage: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DisplayImage
-.PHONY : DisplayImage
+openCam: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 openCam
+.PHONY : openCam
 
 # fast build rule for target.
-DisplayImage/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/build
-.PHONY : DisplayImage/fast
+openCam/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/openCam.dir/build.make CMakeFiles/openCam.dir/build
+.PHONY : openCam/fast
 
-DisplayImage.o: DisplayImage.cpp.o
-.PHONY : DisplayImage.o
+openCam.o: openCam.cpp.o
+.PHONY : openCam.o
 
 # target to build an object file
-DisplayImage.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/DisplayImage.cpp.o
-.PHONY : DisplayImage.cpp.o
+openCam.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/openCam.dir/build.make CMakeFiles/openCam.dir/openCam.cpp.o
+.PHONY : openCam.cpp.o
 
-DisplayImage.i: DisplayImage.cpp.i
-.PHONY : DisplayImage.i
+openCam.i: openCam.cpp.i
+.PHONY : openCam.i
 
 # target to preprocess a source file
-DisplayImage.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/DisplayImage.cpp.i
-.PHONY : DisplayImage.cpp.i
+openCam.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/openCam.dir/build.make CMakeFiles/openCam.dir/openCam.cpp.i
+.PHONY : openCam.cpp.i
 
-DisplayImage.s: DisplayImage.cpp.s
-.PHONY : DisplayImage.s
+openCam.s: openCam.cpp.s
+.PHONY : openCam.s
 
 # target to generate assembly for a file
-DisplayImage.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/DisplayImage.cpp.s
-.PHONY : DisplayImage.cpp.s
+openCam.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/openCam.dir/build.make CMakeFiles/openCam.dir/openCam.cpp.s
+.PHONY : openCam.cpp.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... DisplayImage"
-	@echo "... DisplayImage.o"
-	@echo "... DisplayImage.i"
-	@echo "... DisplayImage.s"
+	@echo "... openCam"
+	@echo "... openCam.o"
+	@echo "... openCam.i"
+	@echo "... openCam.s"
 .PHONY : help
 
 
