@@ -28,7 +28,9 @@ int main() {
     Mat frame; //mat is the cv array class we will call frame.
     while(true) {
         cam >> frame;  // Get a new frame from camera
-        putText(frame, "Are you There? = ", Point(x,y), fontUsed, .5, 1, 1, 8, false); //Add detection question text to screen
+
+        rectangle(frame, Point(0,0), Point((x + answerOffset + 40),y + 5), Scalar(0, 0, 0), -1); //Draw a Rectangle for each face found
+        putText(frame, "Are you There? = ", Point(x,y), fontUsed, .5, Scalar(255,255,255), 1, 8, false); //Add detection question text to screen
 
         vector<Rect> faces; //create vector for faces
         faceClassifier.detectMultiScale(frame, faces); // Detect Faces in frame
