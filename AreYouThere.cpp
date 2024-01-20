@@ -47,8 +47,10 @@ int main() {
             putText(frame, "Yes",  Point((x + answerOffset),y), fontUsed, .5, Scalar(0,255,0), 1, 8, false);
             //Display, Yes, person detected answer.
         }
-
-        imshow("Face Detection", frame); // Present frame
+    
+        if (!frame.empty()) {
+            imshow("Face Detection", frame); // Present frame
+        }    
         
         if(waitKey(30) >= 0) break;  // Wait for a keystroke then close when done. 
     }
