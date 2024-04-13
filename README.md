@@ -91,7 +91,6 @@ Simple Face Detection using Webcam using C++ and OpenCV
 * ![C++][C++]
 * ![OpenCV][OpenCV]
 * ![CMake][CMake]
-* libgtk2.0-dev, pkg-config
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -103,7 +102,6 @@ Simple Face Detection using Webcam using C++ and OpenCV
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * OpenCV
 * CMake
 * libgtk2.0-dev
